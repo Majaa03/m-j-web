@@ -1,0 +1,129 @@
+/* Moderní box model - nastavená šířka boxu je včetně paddingu a borderu */
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  /*
+  sTo nahoře je černá magie, na to raději nešahej.
+  Ale sem dolů už si můžeš psát, co budeš chtít.
+  
+  Tohle je mimochodem opět komentář, ale v CSS.
+  Začíná a končí trochu jinak než v HTML, ale
+  princip je stejný.
+  ------------------------------------------------
+  */
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  h1{
+    background: url(foto.img/hlavicka.img.jpg) center center no-repeat;
+    padding: 160px 30px;
+    margin: 0;
+    font-size: 80px;
+    background-size: cover;
+  
+  }
+  .fotogalerie img { 
+    width: 32%;
+    border-radius: 5px;
+    height: 550px;
+    width: 32%;
+  }
+
+  .cenik img{
+    width: 20%;
+  }
+
+  section{
+    padding:50px 5% ;
+    background-color:pink;
+    back
+  }
+  .fotogalerie{
+    background-color:  yellow;
+
+  }
+  .kontakt{
+    background-color: yellow;
+  }
+  .kontakt img{
+    width: 30%;
+  }
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+  }
+
+  nav {
+    text-align: center;
+    padding: 30px;
+    background-color: grey;
+  }
+  nav a{
+    padding: 30px;
+    text-decoration: solid;
+    color: white;
+    font-size: 15px;
+  }
+  nav a:hover {
+    background-color: #4d2d39;
+  }
+header{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1px;
+}
+.fotogalerie{
+    text-align: center;
+}
+.cenik img{
+    float:left;
+    margin-right: 550px;
+    border-radius: 5%;
+    margin-left: 30px;
+    height: 100%;
+
+}
+section{
+    padding: 100px 10%;
+    overflow: auto;
+}
+
+table{
+    font-size: 18px;
+    border-spacing: 0;
+    text-align: left;
+    padding: 50px;
+}
+th, td {
+    text-align: left;
+    padding: 10px 0;
+    border-bottom: 1px solid #756158;
+    margin: 50px;
+}
+.cena{
+    text-align: right;
+    padding: 15px;
+}
+.kontakt img{
+    float: right;
+    border-radius: 5%;
+    margin-left: 30px;
+}
+
